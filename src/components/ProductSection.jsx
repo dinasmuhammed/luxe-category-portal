@@ -1,12 +1,12 @@
 import React from 'react';
 
 const ProductSection = ({ category }) => {
-  // Placeholder products (replace with actual data later)
+  // Realistic product data with specific Unsplash images
   const products = [
-    { id: 1, name: 'Product 1', price: '$99.99', image: 'https://source.unsplash.com/random/400x400/?perfume' },
-    { id: 2, name: 'Product 2', price: '$129.99', image: 'https://source.unsplash.com/random/400x400/?fragrance' },
-    { id: 3, name: 'Product 3', price: '$149.99', image: 'https://source.unsplash.com/random/400x400/?cologne' },
-    { id: 4, name: 'Product 4', price: '$199.99', image: 'https://source.unsplash.com/random/400x400/?scent' },
+    { id: 1, name: 'Ethereal Essence', price: '$299.99', image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80' },
+    { id: 2, name: 'Opulent Orchid', price: '$259.99', image: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80' },
+    { id: 3, name: 'Velvet Noir', price: '$329.99', image: 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80' },
+    { id: 4, name: 'Golden Aura', price: '$279.99', image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80' },
   ];
 
   return (
