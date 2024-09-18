@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <img
-        src="/placeholder.svg"
+        src="https://source.unsplash.com/random/1920x1080/?luxury,perfume"
         alt="Luxury Product"
         className="absolute inset-0 w-full h-full object-cover"
       />

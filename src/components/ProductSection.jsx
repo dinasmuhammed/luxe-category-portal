@@ -3,10 +3,10 @@ import React from 'react';
 const ProductSection = ({ category }) => {
   // Placeholder products (replace with actual data later)
   const products = [
-    { id: 1, name: 'Product 1', price: '$99.99', image: '/placeholder.svg' },
-    { id: 2, name: 'Product 2', price: '$129.99', image: '/placeholder.svg' },
-    { id: 3, name: 'Product 3', price: '$149.99', image: '/placeholder.svg' },
-    { id: 4, name: 'Product 4', price: '$199.99', image: '/placeholder.svg' },
+    { id: 1, name: 'Product 1', price: '$99.99', image: 'https://source.unsplash.com/random/400x400/?perfume' },
+    { id: 2, name: 'Product 2', price: '$129.99', image: 'https://source.unsplash.com/random/400x400/?fragrance' },
+    { id: 3, name: 'Product 3', price: '$149.99', image: 'https://source.unsplash.com/random/400x400/?cologne' },
+    { id: 4, name: 'Product 4', price: '$199.99', image: 'https://source.unsplash.com/random/400x400/?scent' },
   ];
 
   return (
@@ -24,7 +24,7 @@ const ProductSection = ({ category }) => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-64 object-cover mb-4"
+                className="w-full h-64 object-cover mb-4 mx-auto"
               />
               <h3 className="text-xl font-semibold text-gold mb-2">{product.name}</h3>
               <p className="text-gray-300">{product.price}</p>
