@@ -10,12 +10,12 @@ const ProductSection = ({ category }) => {
   ];
 
   return (
-    <section className="py-16 bg-gray-900">
-      <div className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-playfair italic text-gold mb-8 text-center">
+    <section className="py-12 sm:py-16 bg-gray-900">
+      <div className="container mx-auto px-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-playfair italic text-gold mb-6 sm:mb-8 text-center">
           {category}
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {products.map((product) => (
             <div
               key={product.id}
@@ -24,9 +24,9 @@ const ProductSection = ({ category }) => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-64 object-cover mb-4 mx-auto"
+                className="w-full h-48 sm:h-56 md:h-64 object-cover mb-4 mx-auto"
               />
-              <h3 className="text-xl font-semibold text-gold mb-2">{product.name}</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-gold mb-2">{product.name}</h3>
               <p className="text-gray-300">{product.price}</p>
             </div>
           ))}

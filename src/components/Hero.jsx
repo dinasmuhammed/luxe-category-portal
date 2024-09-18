@@ -9,14 +9,14 @@ const Hero = () => {
         alt="Luxury Perfume"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="relative z-10 text-center">
-        <h1 className="text-4xl md:text-6xl font-playfair italic text-gold mb-4">
+      <div className="relative z-10 text-center px-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-playfair italic text-gold mb-4">
           Experience the Elegance of Exclusivity
         </h1>
-        <p className="text-xl md:text-2xl text-gray-300 mb-8">
+        <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8">
           Discover our premium collection
         </p>
-        <button className="bg-gold text-black px-8 py-3 text-lg font-semibold hover:bg-opacity-80 transition-colors duration-300">
+        <button className="bg-gold text-black px-6 py-2 sm:px-8 sm:py-3 text-lg font-semibold hover:bg-opacity-80 transition-colors duration-300">
           Shop Now
         </button>
       </div>
